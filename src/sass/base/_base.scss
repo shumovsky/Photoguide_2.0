@@ -1,0 +1,33 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Pixoma Nova", sans-serif;
+}
+
+h1 {
+    font-family: "Gilroy", sans-serif;
+    color: $color-light;
+    text-align: center;
+    @include font(9rem, 9rem, bold);
+}
+
+h5 {
+    color: $color-brand;
+    font-family: "Proxima Nova",sans-serif;
+    @include font(1.8rem, 1.8rem, bold);
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 80px;
+}
+
+h2 {
+    font-family: "Gilroy",sans-serif;
+    @include font(4.2rem, 4.2rem, bold, 1rem);
+    text-align: center;
+    padding: 18px 0 50px 0;
+}
+

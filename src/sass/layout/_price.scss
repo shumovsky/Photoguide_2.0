@@ -1,0 +1,62 @@
+.price {
+    background: $color-background;
+    padding-bottom: 80px;
+    h2 {
+        color: #ffffff;
+    }
+}
+
+.price__wrapper {
+    padding: 0 80px;
+}
+
+.price__package {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 26%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.package {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    flex-basis: 30%;
+}
+
+.package:hover {
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.package__text {
+    color: #fff;
+    opacity: 0.2;
+}
+
+.package__name {
+    font-family: "PlayfairDisplay_Bold_Italic";
+    font-style: italic;
+    font-weight: 700;
+    color: $color-brand;
+    font-size: 3.4rem;
+    line-height: 3.4rem;
+    letter-spacing: -0.5px;
+}
+
+.package__consisnt {
+    @include font(1.5rem, 2.5rem);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    color: $color-light;
+    opacity: 0.8;
+    list-style: none;
+    text-align: left;
+    padding: 40px;
+}
+
+.coin {
+    p {
+        font-family: "Pixoma Nova_Bold";
+        @include font(3.6rem, 3.6rem, 900);
+        color: $color-light;
+    }
+}

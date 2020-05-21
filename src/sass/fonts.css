@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Pixoma Nova";
+    src: url(../fonts/ProximaNova-Regular.ttf);
+    src: url(../fonts/ProximaNova-Regular.woff);
+    src: url(../fonts/ProximaNova-Regular.woff2);
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Regular.ttf);
+    src: url(../fonts/Gilroy-Regular.woff);
+    src: url(../fonts/Gilroy-Regular.woff2);
+}
+
+@font-face {
+    font-family: "Pixoma Nova_Bold";
+    src: url(../fonts/Proxima\ Nova_Bold.ttf);
+}
+
+@font-face {
+ font-family: "PlayfairDisplay_Bold_Italic";
+ src: url(../fonts/PlayfairDisplay-BoldItalic.ttf);
+}
+

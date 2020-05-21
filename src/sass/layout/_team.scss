@@ -1,0 +1,26 @@
+.team__wrapper {
+    background: url(../img/team-bg.png);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+.our-team {
+    display: flex;
+    position: relative;
+    flex-basis: 58%;
+    img {
+        max-width: 100%;
+    }
+    a {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 100%;
+    }
+}
+
+.team__description{
+    flex-basis: 40%;
+}

@@ -11,11 +11,14 @@
 <body>
     <section class="parallax-window" data-parallax="scroll" data-image-src="./src/img/bg-header.jpg">
         <header class="header">
-            <div class="wrapper wrapper__header">
+            <div class="wrapper header__wrapper">
                 <div class="logo">
-                    <a href="#" class="logo">Logo</a>
-                    <object data="" type=""></object>
-                    <p>Stop the time -
+                    <a href="#" class="logo">
+                        <object class="logo_img" type="image/svg+xml" data="./src/img/logo_svg.svg">
+                            <img src="./src/img/logo-icon.png" alt="image format png" />
+                        </object>
+                        PhotoGuide</a>
+                    <p class="logo__text">Stop the time - <br>
                         leave the memories</p>
                 </div>
                 <div class="header__navigation">
@@ -26,101 +29,67 @@
                         <li class="navigation__link"> <a href="#">Галерея</a></li>
                     </ul>
                 </div>
+            </div>
         </header>
-        <div class="wrapper wrapper__promo">
+        <div class="wrapper promo__wrapper">
             <div class="promo__content">
-                <h1 class="promo__title">Фотосессия в Турции</h1>
-                <P class="promo__text">по цене 7000 рублей за 100 фотографий
-                    и 10 одноминутных видео для <span>Instagram</span> </P>
+                <h1 class="promo__title">Фотосессия <br> в Турции</h1>
+                <P class="promo__text">по цене 7000 рублей за 100 фотографий <br>
+                    и 10 одноминутных видео для <a href="https://www.instagram.com/" target="_blank"> Instagram <img
+                            src="./src/img/social-link/insta.png" alt="instagram"> </a> </P>
                 <button class="button button_promo">Связаться с фотографом</button>
             </div>
             <div class="promo__footer">
                 <div class="promo__footer__text">
                     вы получаете <span>*Турция</span>
                 </div>
-                <div class="sentence">
-                    <img src="./src/img/Vector.png" alt="schedule">
-                    100 обработанных фото
-                    и оригиналы
-                </div>
-                <div class="sentence">
-                    <img src="./src/img/fast-delivery.png" alt="clock">
-                    Первые 10 фото и 1 видео
-                    в течение 24 часов
-                </div>
-                <div class="sentence">
-                    <img src="./src/img/Date.png" alt="date">
-                    Все фотографии через
-                    15 дней
+                <div class="promo__sentence">
+                    <div class="sentence">
+                        <img src="./src/img/Vector.png" alt="schedule">
+                        100 обработанных фото
+                        и оригиналы
+                    </div>
+                    <div class="sentence">
+                        <img src="./src/img/fast-delivery.png" alt="clock">
+                        Первые 10 фото и 1 видео
+                        в течение 24 часов
+                    </div>
+                    <div class="sentence">
+                        <img src="./src/img/Date.png" alt="date">
+                        Все фотографии через
+                        15 дней
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <section class="portfolio">
-        <div class="wrapper wrapper__portfolio">
-            <h5 class="promo__title">Галерея</h5>
+        <div class="wrapper portfolio__wrapper">
+            <h5 class="portfolio__title">Галерея</h5>
             <h2>Мы работаем во всех стилях</h2>
             <div>
-                <ul>
-                    <li><button class="button">Семейная съемка</button></li>
-                    <li><button class="button">Love story</button></li>
-                    <li><button class="button">Lifestyle</button></li>
-                    <li><button class="button">Fashion</button></li>
-                    <li><button class="button">Glamour</button></li>
+                <ul class="portfolio__list">
+                    <li><button class="button button_portfolio">Семейная съемка</button></li>
+                    <li><button class="button button_portfolio">Love story</button></li>
+                    <li><button class="button button_portfolio">Lifestyle</button></li>
+                    <li><button class="button button_portfolio">Fashion</button></li>
+                    <li><button class="button button_portfolio">Glamour</button></li>
                 </ul>
             </div>
         </div>
     </section>
     <section class="price">
-        <div class="wrapper wrapper__price">
+        <div class="wrapper price__wrapper">
             <div>
                 <h5 class="price__title">услуги и цены</h5>
                 <h2>Сколько стоят наши услуги</h2>
             </div>
             <div class="price__package">
-                <div class="price__package lght">
-                    <p>пакет</p>
-                    <h5>Легкий</h5>
+                <div class=" package">
+                    <p class="package__text">пакет</p>
+                    <p class="package__name">Легкий</p>
                     <div>
-                        <ul>
-                            <li>Съёмка и обработка
-                                60 фотографий</li>
-                            <li>USB-флешка с фото</li>
-                            <li>10 одноминутных видео для Instagram</li>
-                            <li>Аренда платья на фотосессию</li>
-                            <li>Аренда квадрокоптера</li>
-                            <li>Доставка в живописные места Анталии</li>
-                        </ul>
-                    </div>
-                    <div class="coin">
-                        <p>12 000 &#8381;</p>
-                        <button class="button price">заказать</button>
-                    </div>
-                </div>
-                <div class="price__package lght">
-                    <p>пакет</p>
-                    <h5>Легкий</h5>
-                    <div>
-                        <ul>
-                            <li>Съёмка и обработка
-                                60 фотографий</li>
-                            <li>USB-флешка с фото</li>
-                            <li>10 одноминутных видео для Instagram</li>
-                            <li>Аренда платья на фотосессию</li>
-                            <li>Аренда квадрокоптера</li>
-                            <li>Доставка в живописные места Анталии</li>
-                        </ul>
-                    </div>
-                    <div class="coin">
-                        <p>9 000 &#8381;</p>
-                        <button class="button price">заказать</button>
-                    </div>
-                </div>
-                <div class="price__package lght">
-                    <p>пакет</p>
-                    <h5>Легкий</h5>
-                    <div>
-                        <ul>
+                        <ul class="package__consisnt">
                             <li>Съёмка и обработка
                                 60 фотографий</li>
                             <li>USB-флешка с фото</li>
@@ -132,24 +101,65 @@
                     </div>
                     <div class="coin">
                         <p>7 000 &#8381;</p>
-                        <button class="button price">заказать</button>
+                        <button class="button button_price">заказать</button>
+                    </div>
+                </div>
+                <div class="package">
+                    <p class="package__text">пакет</p>
+                    <p class="package__name">Премиум</p>
+                    <div>
+                        <ul class="package__consisnt">
+                            <li>Съёмка и обработка
+                                60 фотографий</li>
+                            <li>USB-флешка с фото</li>
+                            <li>10 одноминутных видео для Instagram</li>
+                            <li>Аренда платья на фотосессию</li>
+                            <li>Аренда квадрокоптера</li>
+                            <li>Доставка в живописные места Анталии</li>
+                        </ul>
+                    </div>
+                    <div class="coin">
+                        <p>12 000 &#8381;</p>
+                        <button class="button button_price">заказать</button>
+                    </div>
+                </div>
+                <div class="package">
+                    <p class="package__text">пакет</p>
+                    <p class="package__name">Стандарт</p>
+                    <div>
+                        <ul class="package__consisnt">
+                            <li>Съёмка и обработка
+                                60 фотографий</li>
+                            <li>USB-флешка с фото</li>
+                            <li>10 одноминутных видео для Instagram</li>
+                            <li>Аренда платья на фотосессию</li>
+                            <li>Аренда квадрокоптера</li>
+                            <li>Доставка в живописные места Анталии</li>
+                        </ul>
+                    </div>
+                    <div class="coin">
+                        <p>9 000 &#8381;</p>
+                        <button class="button button_price">заказать</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <section class="team">
-        <div class="wrapepr wrapper__team">
-            <div class="our__team">
-                <img src="./src/img/team-women.png" alt="women">
-                <img src="./src/img/team-men.png" alt="men">
-                <img src="./src/img/video icon.png" alt="ico_play">
+        <div class="wrapepr team__wrapper">
+            <div class="our-team">
+                <div>
+                    <img src="./src/img/team-women.png" alt="women">
+                    <img src="./src/img/team-men.png" alt="men">
+                </div>
+                <a href="#">
+                    <img src="./src/img/video icon.png" alt="ico_play"></a>
             </div>
-            <div>
-                <h2 class="team__title">Наша команда</h2>
-                <h5>Посмотрите 2-минутное видео
+            <div class="team__description">
+                <h5 class="team__title">Наша команда</h5>
+                <h2>Посмотрите 2-минутное видео
                     о нас, чтобы лучше понять,
-                    как проходят наши фотосессии</h5>
+                    как проходят наши фотосессии</h2>
                 <p>Делаем так, чтобы воспоминания об отдыхе остались у вас
                     на всю жизнь. Для этого заранее продумываем сюжет
                     и подбираем интересные геолокации
@@ -163,18 +173,56 @@
             </div>
         </div>
     </section>
-    <section class="about_as">
-        <div class="wrapper wrapper__about_as">
+    <section class="about-us">
+        <div class="wrapper about-us__wrapper">
             <h5>отзывы</h5>
             <h2>Узнайте, что пишут о нас наши клиенты
                 в своих Instagram <span></span> аккаунтах</h2>
         </div>
     </section>
-    <section class="contact">
-        <div class="wrapper wrapper__contact">
+    <section class="contact-us">
+        <div class="wrapper contact-us__wrapper">
             <h5>Контакты</h5>
             <h2>Свяжитесь с нами удобным вам способом, чтобы договориться
                 о встрече-знакомстве и обсудить детали</h2>
+            <div>
+                <ul class="contact-us__social">
+                    <li><a href="#"><img src="./src/img/social-link/telegram.png" alt="telegram">
+                            <p>Telegram</p>
+                        </a></li>
+                    <li><a href="#"><img src="./src/img/social-link/viber.png" alt="viber">
+                            <p>Viber</p>
+                        </a>
+                    </li>
+                    <li><a href="#"><img src="./src/img/social-link/facebook.png" alt="facebook">
+                            <p>Facebook</p>
+                        </a></li>
+                    <li><a href="#"><img src="./src/img/social-link/instagram.png" alt="Instagram">
+                            <p>Instagram</p>
+                        </a></li>
+                    <li><a href="#"><img src="./src/img/social-link/whatsapp.png" alt="whatsapp">
+                            <p> Whatsapp</p>
+                        </a></li>
+                    <li><a href="#"><img src="./src/img/social-link/vk.png" alt="Vkontakte">
+                            <p> Vkontakte</p>
+                        </a></li>
+                </ul>
+            </div>
+            <div class="contact-us__form">
+                <form action method="POST">
+                    <fieldset>
+                        <legend>Или оставьте данные и мы перезвоним</legend>
+                        <div class="layout-2-column">
+                            <input type="text" name="name" placeholder="Введите имя">
+                            <input type="tel" name="tel" placeholder="Введите телефон">
+                            <input type="text" name="description" placeholder="Оставте коментарий">
+                            <div class="contact-us__button">
+                                <button type="submit" class="button button_contact">Отправить заявку</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
         </div>
     </section>
 </body>
